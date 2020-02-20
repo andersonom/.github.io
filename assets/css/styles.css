@@ -665,4 +665,12 @@ a.dotted-link:hover {
     width: 1360px;
     max-width: inherit;
   }
+}  
+
+.profile-image {
+-moz-border-radius: 50%;  /* for Firefox */
+-webkit-border-radius: 50%; /* for Webkit-Browsers */
+border-radius: 50%; /* regular */
+opacity:1; /* Transparent Background 50% */
 }
+
